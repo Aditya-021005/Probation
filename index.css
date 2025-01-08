@@ -1,0 +1,590 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.navbar{
+   height: 60px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+}
+.navbar2{
+  height:2px;
+  background-color: #44d62c;
+}
+.navbar3{
+  height: 40px;
+  background-color: #6c7079;
+  align-items: center;
+}
+.nav-logo{
+  height: 40px;
+  width:80px;
+}
+.logo{
+  background-image: url("razer_logo.png");
+  height:40px;
+  width:100%;
+  background-size: cover;
+  margin-left: 80px;
+}
+.store{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 120px;
+  align-items: center;
+}
+.PC{
+    color:#e3e7ee;
+    font-size: 1rem;
+    margin-left: 80px;
+    align-items: center;
+}
+.Console{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Mobile{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Lifestyle{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Gold{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Community{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Support{
+  color:#e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px;
+  align-items: center;
+}
+.Order{
+  color:#e3e7ee;
+  font-size: 0.9rem;
+  text-align:center;
+  position: relative;
+  top: 10px; 
+  font-weight: bold;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 80px; /* Space of 80px between the icons */
+}
+
+.nav-icons .fa-solid {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #ffffff; /* Ensure icons are visible */
+}
+.nav-address9 {
+  color: #e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px; /* Ensure proper alignment */
+  align-items: center;
+}
+
+.nav-address10 {
+  color: #e3e7ee;
+  font-size: 1rem;
+  margin-left: 80px; /* 80px gap from the previous element */
+  align-items: center;
+}
+.search-icon {
+  display: inline-block; /* Ensures the icons are on the same line */
+  margin-right: 80px; /* Creates the 80px gap */
+  vertical-align: middle; /* Aligns icons with other header elements */
+}
+
+.cart-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.hero-section{
+  background-image: url("Razer\ Tree.jpg");
+  background-size:cover;
+  background-position: calc(50% - 10px) center; /* Shift image 10px left */
+  height: 700px;
+}
+.HG{
+  color: #e3e7ee;
+  font-size: 3rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.GF{
+  color: #e3e7ee;
+  font-size: 2rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.HG a, .GF a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.LM{
+    color: #e3e7ee;
+    font-size: 1rem;
+    text-align:center;
+    position: relative;
+    top: 85px; /* Moves the text down */
+}
+.LM a:hover {
+  text-decoration: underline; 
+  text-decoration-color: white; 
+}
+.navbar4{
+  height:10px;
+  background-color: #222222;
+}
+.hero-section2{
+  background-image: url("Razer\ Anniversary.jpg");
+  background-size:cover;
+  height: 700px;
+  background-position: calc(50% - 10px) center;
+}
+.WW{
+  color: #e3e7ee;
+  font-size: 3rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.AS{
+  color: #e3e7ee;
+  font-size: 2rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.WW a, .AS a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.hero-section3{
+  background-image: url("Razer\ Red.jpg");
+  background-size:cover;
+  height: 700px;
+  background-position: calc(50% - 10px) center;
+}
+.RV{
+  color: #e3e7ee;
+  font-size: 3rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.FP{
+  color: #e3e7ee;
+  font-size: 2rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.RV a, .FP a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.OA1{
+  background-color: #ef9817;
+  justify-content: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+.OA {
+  position: absolute;
+  left: 50%; /* Horizontal center */
+  transform: translate(-50%, -50%); /* Adjust for element size */
+  margin-top: 30px;
+}
+.OA1 :hover{
+  cursor: pointer;
+}
+.hero-section4{
+  background-image: url("I1.jpg");
+  background-size:cover;
+  height: 500px;
+  width:49%;
+  position: relative;
+}
+.LE{
+  color: #e3e7ee;
+  font-size: 2.5rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.NR{
+  color: #e3e7ee;
+  font-size: 1.5rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.LE a, .NR a,.SB a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.SB{
+  color: #e3e7ee;
+  font-size: 1rem;
+  text-align:center;
+  position: relative;
+  top: 85px; /* Moves the text down */
+}
+.SB a:hover {
+  text-decoration: underline; 
+  text-decoration-color: white; 
+}
+.hero-section5{
+  background-image: url("I3.jpg");
+  background-size:cover;
+  height: 500px;
+  width:49%;
+  align-items: right;
+  position: relative;
+}
+.RZ{
+  color: #e3e7ee;
+  font-size: 2.5rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.TG{
+  color: #e3e7ee;
+  font-size: 1.5rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.RZ a, .TG a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.OA2 {
+  position: absolute;
+  left: 50%; /* Horizontal center */
+  transform: translate(-50%, -50%); /* Adjust for element size */
+  margin-top: 30px;
+}
+.OA3 :hover{
+  cursor: pointer;
+}
+.OA3{
+  background-color: #ef9817;
+  justify-content: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+.hero-section6{
+  background-image: url("I5.jpg");
+  background-size:cover;
+  height: 500px;
+  width:49%;
+  align-items: right;
+  position: relative;
+}
+.RL{
+  color: #e3e7ee;
+  font-size: 2.5rem;
+  text-align:center;
+  position: relative;
+  top: 55px; /* Moves the text down */
+  font-weight: bold;
+}
+.AS{
+  color: #e3e7ee;
+  font-size: 1.5rem;
+  text-align:center;
+  position: relative;
+  top: 65px; /* Moves the text down */
+}
+.RL a, .AS a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.hero-section6::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0; /* Align to the right edge */
+  width: 1%;
+  height: 100%; /* Full height of the section */
+  background-color: #222222; /* Color of the bar */
+}
+.hero-section5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0; /* Align to the right edge */
+  width: 1%;
+  height: 100%; /* Full height of the section */
+  background-color: #222222; /* Color of the bar */
+}
+.hero-section4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0; /* Align to the right edge */
+  width: 1%;
+  height: 100%; /* Full height of the section */
+  background-color: #222222; /* Color of the bar */
+}
+.hero-section6-container {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section6-image {
+  width: 51%; /* Adjust based on your layout */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #000; /* Optional: to match the theme */
+}
+
+.hero-section6-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  object-position: center;
+
+}
+.hero-section5-container {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section5-image {
+  width: 51%; /* Adjust based on your layout */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #000; /* Optional: to match the theme */
+}
+
+.hero-section5-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  object-position: center;
+
+}
+.hero-section4-container {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section4-image {
+  width: 51%; /* Adjust based on your layout */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #000; /* Optional: to match the theme */
+}
+
+.hero-section4-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  object-position: center;
+
+}
+.hero-section6-text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.hero-section6-text .XB {
+  font-size: 2.5rem; /* Title font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 55px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+
+.hero-section6-text .DO {
+  font-size: 1.5rem; /* Subtitle font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 65px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+.XB a, .DO a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.hero-section5-text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.hero-section5-text .UW {
+  font-size: 2.5rem; /* Title font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 55px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+
+.hero-section5-text .DR {
+  font-size: 1.5rem; /* Subtitle font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 65px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+.UW a, .DR a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.hero-section4-text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.hero-section4-text .RR {
+  font-size: 2.5rem; /* Title font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 55px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+
+.hero-section4-text .NA {
+  font-size: 1.5rem; /* Subtitle font size */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 65px; /* 55px from the top of the container */
+  color:#e3e7ee;
+}
+.RR a, .NA a,.LM a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color of the parent element */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.navbar5{
+  height:400px;
+  background-color: rgba(18, 17, 17, 0.777);
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  position: relative; /* Allows positioning of child elements */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center elements horizontally */
+  align-items: flex-start; /* Align elements vertically */
+  gap: 100px; /* Create 50px space between elements */
+  position: relative;
+  height: 300px; /* Adjust based on your design */
+  left: 200px;
+}
+
+.Explore,.Support1,.Shop,.Company,.Followus {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.FG{
+  color: #44d62c;
+  font-size: 1rem;
+}
+
+.TM-FG {
+  display: flex; /* Group TM and FG in a Flexbox */
+  gap: 0; /* No gap between TM and FG */
+  margin-left: 150px; /* Position TM-FG 200px to the right of Followus */
+}
+.container1 {
+  display: flex;
+  justify-content: center; /* Center elements horizontally */
+  align-items: flex-start; /* Align elements vertically */
+  gap: 100px; /* Create 50px space between elements */
+  position: relative;
+  height: 300px; /* Adjust based on your design */
+  left: 200px;
+}
+.RS,.GH,.TY,.AU{
+  color:#6c7079;
+  font-size: 0.95rem;
+}
